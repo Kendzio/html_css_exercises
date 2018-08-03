@@ -1,0 +1,9 @@
+* {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	background: radial-gradient(#42d7f4, #1e606d);
+	display: block;
+}
