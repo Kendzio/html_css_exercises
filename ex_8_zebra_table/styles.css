@@ -1,0 +1,13 @@
+table, tr, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+th {
+  background-color: grey;
+}
+
+tr:nth-child(even) {
+  background-color: green;
+}

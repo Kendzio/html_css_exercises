@@ -1,0 +1,15 @@
+.ribbon {
+  position: absolute;
+  right: -100px;
+  top: 40px;
+  background: black;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  transform: rotate(45deg);
+}
+
+.ribbon a {
+  color: white;
+  text-decoration: none;
+}
