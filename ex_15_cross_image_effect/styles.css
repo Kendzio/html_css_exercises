@@ -1,0 +1,7 @@
+.step1, .step2 {
+  position: absolute;
+}
+
+.changer img { transition: 1s ease-in-out; }
+  img.step1 , div.changer:hover img.step2 { opacity: 1.0; }
+  .changer:hover img.step1, img.step2 { opacity: 0; } 
