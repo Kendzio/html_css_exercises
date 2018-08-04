@@ -1,0 +1,45 @@
+body {
+  background-color: grey;
+
+}
+ul {
+  list-style-type: none;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 15px;
+  background-color: black;
+}
+
+li {
+  display: inline-block;
+  min-width: 130px;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li:hover, a:hover {
+  box-shadow: 0 2px 2px 0 white;
+}
